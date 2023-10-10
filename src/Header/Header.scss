@@ -1,0 +1,44 @@
+
+.dashboard{
+  background-image: linear-gradient(to left, #280137, #310144, #3b0151, #44015e, #4e006c);
+  width: 100%;
+}
+.overlay-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  background-color: white;
+  padding: 4px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay-menu.open {
+  transform: translateX(0);
+}
+.photos{
+  height: 30rem;
+  width: 25rem; 
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+/* CSS for backdrop element */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 40;
+}
+.photo{
+  height: 30rem;
+  width: 35rem; 
+}

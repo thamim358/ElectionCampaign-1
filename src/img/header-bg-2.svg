@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="778px" viewBox="0 0 1440 778" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Фон основа</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="-0.576145388%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#575756" offset="0%">
+                <animate
+                        attributeName="stop-color"
+                        keyTimes="0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1"
+                        values="#575756; #723788; #C7CE31; #E9511D; #FBBC43; #008BD2; #F6A000; #13A538; #575756"
+                        dur="20s"
+                        repeatCount="indefinite"
+                />
+            </stop>
+            <stop stop-color="#723788" offset="94.9504657%">
+                <animate
+                        attributeName="stop-color"
+                        keyTimes="0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1"
+                        values="#723788; #723788; #E9511D; #E9511D; #008BD2; #008BD2; #13A538; #13A538; #723788"
+                        dur="20s"
+                        repeatCount="indefinite"
+                />
+            </stop>
+            <stop stop-color="#723788" offset="100%">
+                <animate
+                        attributeName="stop-color"
+                        keyTimes="0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1"
+                        values="#723788; #723788; #E9511D; #E9511D; #008BD2; #008BD2; #13A538; #13A538; #723788"
+                        dur="20s"
+                        repeatCount="indefinite"
+                />
+            </stop>
+        </linearGradient>
+        <path d="M41,25 L1485,25 L1485,709.533441 C1298.59301,655.647213 1155.3812,631.197653 1055.36456,636.184759 C757.108501,651.056632 724.023848,714.354058 461.398915,724.041816 C300.494864,729.977275 160.361892,708.337385 41,659.122146 L41,25 Z" id="path-2"></path>
+        <filter x="-5.5%" y="-11.4%" width="113.9%" height="128.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <!-- <feOffset dx="20" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.59876019 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix> -->
+        </filter>
+    </defs>
+    <g id="Desktop-HD-4-versions-(2019)-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Главная-">
+            <g id="2-Баннер-2" transform="translate(-41.000000, -26.000000)">
+                <g id="Фон-основа">
+                    <g id="Bg-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
